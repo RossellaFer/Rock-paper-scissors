@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+  Rock, paper, scissors
+</title>
+<link rel = "stylesheet" href = "stylerock.css">
+</head>
+
+<body>
+<!--Title-->
+    <center><h1 class = "text-center page-header">Let's play Rock, paper, scissors</h1></center>
+
+    <p id = "game_description" class = "text-centre">Challenge the computer to play the classic game "Rock, paper, scissors". Click on the images below to make your selection.</p>
+
+    <div id = "images_choices">
+	<center>
+	<img class = "img-responsive userSelection" alt = "rock" src = "Images/rocknew.png">
+	<img class = "img-responsive userSelection" alt = "paper" src = "Images/papernew.png">
+	<img class = "img-responsive userSelection" alt = "scissors" src = "Images/scissorsnew.png">
+	</center>
+	</div>
+
+    <div class="container">
+  		<div id="results">
+    		<p>Computer score: <span id="computerScore">0</span></p>
+  			<p>Your score: <span id="playerScore">0</span></p>
+  		</div>
+		<p id="result"><p>
+	</div>
+	<button id = "startbutton" >Reset score</button>
+
+<!--Javascript always before the body tag-->
+
+<script type="text/javascript" src="index2.js"></script>
+
+</body>
+</html>
